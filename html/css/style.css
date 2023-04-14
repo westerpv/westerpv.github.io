@@ -1660,3 +1660,48 @@ ul.img_icon li {
 
 /** end footer **/
 
+.ventana{
+     background: #0303B5;
+     width: 30%;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     text-align: center;
+     padding: 33px;
+     min-height: 250px;
+     border-radius: 22px;
+     left: 34%;
+     top: 25%;
+     display: none;
+     position: absolute;
+}
+
+.bannercrc{
+     margin: 0 auto;
+     margin-left: 100px;
+     top: 50%;
+        
+}
+
+#cerrar{
+     position: absolute;
+     right: 3px;
+     top:1px;
+}
+
+.videos {
+     display: flex;
+     justify-content: center;
+   }
+   
+   .video-container {
+     margin: 0 10px;
+     border: none;
+     
+   }
+   
+   .video-container video {
+     width: 400px;
+     height: 300px;
+   }
+   

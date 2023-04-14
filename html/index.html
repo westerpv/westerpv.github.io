@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>webwing</title>
+   <title>COSTELCOM</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -48,7 +48,7 @@
                <div class="row">
                   <div class="col-md-6 col-sm-6">
                      <ul class="lan">
-                        <li><i class="fa fa-globe" aria-hidden="true"></i> Language : <img src="images/fleg.png" alt="#" /></li>
+                        <li><i class="fa fa-globe" aria-hidden="true"></i> Lenguaje : <img src="images/fleg.png" alt="#" /></li>
                      </ul>
                      <form action="#">
                         <div class="select-box">
@@ -63,12 +63,12 @@
                      <ul class="social_icon1">
                         <li> Siguenos!
                         </li>
-                        <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+                        <li> <a href="javascript:abrir()"><i class="fa fa-facebook" aria-hidden="true"></i>
                            </a>
                         </li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li> <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                        <li> <a href="javascript:abrir()"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="javascript:abrir()"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li> <a href="javascript:abrir()"><i class="fa fa-instagram" aria-hidden="true"></i>
                            </a>
                         </li>
                      </ul>
@@ -140,19 +140,51 @@
    </header>
    <!-- end header inner -->
    <!-- end header -->
+
+<div class="ventana" id="vent">
+   <div id="cerrar"><a href="javascript:cerrar()"><img src="images/1486564399-close_81512.png" alt=""></a></div>
+   <h2>Muy Pronto</h2>
+</div>    
+
+<script>
+   function abrir(){
+      document.getElementById("vent").style.display="block";
+   }
+   function cerrar(){
+      document.getElementById("vent").style.display="none";
+   }
+</script>
    <!-- banner -->
    <div class="slider-container">
       <div class="slider-wrapper">
         <video src="images/fibra.mp4" muted loop autoplay></video>
         <video src="images/COSTELCOM.mp4" muted loop autoplay></video>
         <video src="images/conectate.mp4" muted loop autoplay></video>
-        <video src="video4.mp4" muted loop autoplay></video>
+        <video src="images/potencia.mp4" muted loop autoplay></video>
       </div>
       <button class="prev-btn">Anterior</button>
       <button class="next-btn">Siguiente</button>
     </div>
     
    <!-- end banner -->
+   <div class="videos">
+      <div class="video-container">
+         <a href="index.html">
+         <video src="images/paga.mp4" muted loop autoplay></video>
+      </a>
+      </div>
+      <div class="video-container">
+         <a href="index.html">
+         <video src="images/test.mp4" muted loop autoplay></video>
+      </a>
+      </div>
+      <div class="video-container">
+         <a href="index.html">
+         <video src="images/servicio.mp4" muted loop autoplay></video>
+      </a>
+      </div>
+    </div>
+
    <!-- about section -->
    <div id="about" class="about">
       <div class="container-fluid">
@@ -184,7 +216,7 @@
          <div class="row">
             <div class="col-md-7">
                <div class="titlepage">
-                  <h2><strong class="yellow">service</strong><br> WE CAN HELP YOUR business GROW</h2>
+                  <h2><strong class="yellow">Servicios</strong><br> AYUDAMOS A CRECER A TU NEGOCIO</h2>
                </div>
             </div>
          </div>
@@ -192,43 +224,57 @@
             <div class="col-md-4 col-sm-6">
                <div id="ho_color" class="service_box">
                   <img src="images/service_icon1.png" alt="#" />
-                  <h3>DIGITAL marketing</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and1500s, </p>
+                  <h3>Instalación y mantenimiento sin problemas</h3>
+                  <p>¿Tienes problemas para instalar o mantener tu servicio?
+                      No te preocupes, nuestro equipo de expertos está aquí para ayudarte.
+                       Disfruta de una conexión sin problemas y sin preocupaciones. </p>
                </div>
             </div>
             <div class="col-md-4 col-sm-6">
                <div id="ho_color" class="service_box">
                   <img src="images/service_icon2.png" alt="#" />
-                  <h3>FINANCIAL PLANING</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and1500s, </p>
+                  <h3>Amplia selección de canales</h3>
+                  <p>No te limites a la hora de ver televisión.
+                      Ofrecemos una amplia selección de canales y paquetes
+                       para que puedas personalizar tu experiencia de entretenimiento como quieras. </p>
                </div>
             </div>
             <div class="col-md-4 col-sm-6">
                <div id="ho_color" class="service_box">
                   <img src="images/service_icon3.png" alt="#" />
-                  <h3>DIGITAL marketing</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and1500s, </p>
+                  <h3>Conexión de alta velocidad</h3>
+                  <p>Conéctate a la velocidad del futuro con nuestra
+                      conexión de fibra óptica. Descarga películas,
+                       juega en línea y disfruta de la mejor calidad 
+                       de streaming con la velocidad que necesitas. </p>
                </div>
             </div>
             <div class="col-md-4 col-sm-6">
                <div id="ho_color" class="service_box">
                   <img src="images/service_icon4.png" alt="#" />
-                  <h3>BUSINESS CONSULTING</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and1500s, </p>
+                  <h3>Precios competitivos</h3>
+                  <p>Obtén el mejor valor por tu dinero con nuestros precios 
+                     competitivos. No te preocupes por tu factura de servicios,
+                      ofrecemos la mejor calidad al precio justo. </p>
                </div>
             </div>
             <div class="col-md-4 col-sm-6">
                <div id="ho_color" class="service_box">
                   <img src="images/service_icon5.png" alt="#" />
-                  <h3>MARKETING RESEARCH</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and1500s, </p>
+                  <h3>Instalación y mantenimiento sin problemas</h3>
+                  <p>¿Tienes problemas para instalar o mantener tu servicio? No te preocupes,
+                      nuestro equipo de expertos está aquí para ayudarte.
+                       Disfruta de una conexión sin problemas y sin preocupaciones.</p>
                </div>
             </div>
             <div class="col-md-4 col-sm-6">
                <div id="ho_color" class="service_box">
                   <img src="images/service_icon6.png" alt="#" />
-                  <h3>UX RESEARCH</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and1500s, </p>
+                  <h3>Servicio de atención al cliente de alta calidad</h3>
+                  <p>Tu satisfacción es nuestra prioridad. Ofrecemos un servicio
+                      de atención al cliente de alta calidad para resolver
+                       rápidamente cualquier problema que puedas tener. Siempre 
+                       estamos aquí para ayudarte.</p>
                </div>
             </div>
             <div class="col-md-12">
@@ -398,6 +444,9 @@
       </div>
    </div>
    <!-- end portfolio section -->
+   <div class="bannercrc">
+                  <figure><a href="https://www.crcom.gov.co/es/micrositios/comunicados-como-es"target="_blank"><img src="images/banner-comunicados-como-es.jpg" alt="#" ></a></figure>
+               </div>
    <!-- business  section -->
    <div class="business">
       <div class="container">

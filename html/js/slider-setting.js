@@ -60,6 +60,9 @@
 	  video.play();
 	}
 	
+
+
+
 	initSlider();
 	
 
