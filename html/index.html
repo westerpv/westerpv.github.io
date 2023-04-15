@@ -30,6 +30,11 @@
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <head>
+         ...
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+       </head>
+       
 </head>
 <!-- body -->
 
@@ -155,8 +160,9 @@
    }
 </script>
    <!-- banner -->
+   <!--
    <div class="slider-container">
-      <div class="slider-wrapper">
+      <div class="slider">
         <video src="images/fibra.mp4" muted loop autoplay></video>
         <video src="images/COSTELCOM.mp4" muted loop autoplay></video>
         <video src="images/conectate.mp4" muted loop autoplay></video>
@@ -164,8 +170,34 @@
       </div>
       <button class="prev-btn">Anterior</button>
       <button class="next-btn">Siguiente</button>
+    </div>-->
+    
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <video src="images/fibra.mp4" muted loop autoplay></video>
+        </div>
+        <div class="swiper-slide">
+          <video src="images/COSTELCOM.mp4" muted loop autoplay></video>
+        </div>
+        <div class="swiper-slide">
+          <video src="images/conectate.mp4" muted loop autoplay></video>
+        </div>
+        <div class="swiper-slide">
+          <video src="images/potencia.mp4" muted loop autoplay></video>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
     
+    <body>
+      ...
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </body>
+    
+    
+
    <!-- end banner -->
    <div class="videos">
       <div class="video-container">
@@ -184,7 +216,27 @@
       </a>
       </div>
     </div>
+    <div class="videosinternet">
+   <div class="swiper-video">
+      <a href="https://www.example.com/corporativo">
+        <video id="video-corporativo"  src="images/INTERNET.mp4" muted loop autoplay></video>
+      </a>
+    </div>
+    
+    <div class="swiper-video">
+      <a href="https://www.example.com/hogar">
+        <video id="video-hogar"  src="images/hogar.mp4" muted loop autoplay></video>
+      </a>
+    </div>
+    
+    <div class="swiper-video">
+      <a href="https://www.example.com/rural">
+        <video id="video-rural" src="images/rural.mp4" muted loop autoplay></video>
+      </a>
+    </div>
+</div>
 
+    
    <!-- about section -->
    <div id="about" class="about">
       <div class="container-fluid">
@@ -853,6 +905,7 @@
    <!-- end footer -->
    <!-- Javascript files-->
    <script src="js/jquery.min.js"></script>
+   <script src="js/slider-setting.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
    <script src="js/jquery-3.0.0.min.js"></script>
